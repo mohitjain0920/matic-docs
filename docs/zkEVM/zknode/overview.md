@@ -54,7 +54,7 @@ The Synchronizer is responsible for reading the events from the Ethereum blockch
 
 ## RPC
 
-RPC (Remote Procedure Call) is a JSON-RPC interface compatible with Ethereum. For a software application to interact with the Ethereum blockchain (by reading blockchain data and / or sending transactions to the network), it must connect to an Ethereum node. RPC enables integration of the zkEVM with existing tools, such as Metamask, Etherscan, and Infura. It adds transactions to the **Pool** and interacts with the **State** using read-only methods. 
+RPC (Remote Procedure Call) is a JSON-RPC interface compatible with Ethereum. For a software application to interact with the Ethereum blockchain (by reading blockchain data and / or sending transactions to the network), it must connect to an Ethereum node. RPC enables integration of the zkEVM with existing tools, such as Metamask, Etherscan, and Infura. It adds transactions to the **Pool** and interacts with the **State** using read-only methods. An example of this can be [Alchemy](https://docs.alchemy.com/reference/polygon-zkevm-api-quickstart) through which developers can submit transactions and access up-to-date network data.
 
 ## State
 
